@@ -67,6 +67,12 @@ h1{
     border-radius: 15px;
     background-image: linear-gradient(orange,rgb(247, 142, 56));
 }
+.last{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: center;
+}
 
 .last .flex-container{
     display: flex;
@@ -74,10 +80,14 @@ h1{
 }
 
 .last .flex-container .left-s3{
-    width: 40%;
-    margin-left: 50px;
+    width: 40%;  
 }
 .last .flex-container .right-s3{
     width: 40%;
-    margin-left: 50px;
+}
+.shadow{
+    margin-left: 40px;
+    margin-right: 20px;
+    padding: 15px 20px;
+    box-shadow: 10px 10px 30px gray;
 }
