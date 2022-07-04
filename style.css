@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 40px;
 }
-span{
+.orange{
     color: orange;
 }
 .top{
@@ -44,6 +44,7 @@ span{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: bottom;
 }
 .mid .left-s2{
     width: 50%;
@@ -65,4 +66,18 @@ span{
     padding: 10px 40px;
     border-radius: 15px;
     background-image: linear-gradient(orange,rgb(247, 142, 56));
+}
+
+.last .flex-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.last .flex-container .left-s3{
+    width: 40%;
+    margin-left: 50px;
+}
+.last .flex-container .right-s3{
+    width: 40%;
+    margin-left: 50px;
 }
